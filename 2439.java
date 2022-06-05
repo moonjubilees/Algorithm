@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 
@@ -10,8 +9,8 @@ public class Main {
         int a = sc.nextInt();
         sc.close();
 
-        for(int i =1; i<=a; i++){
-        	for(int j =  1; j<=i; j++) {
+        for(int i =a; i>=1; i--){
+        	for(int j = 1; j<=i; j++) {
         		System.out.print("*");
         	}
         	
